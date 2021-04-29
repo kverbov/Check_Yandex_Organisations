@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="36a1ff48-dfcf-49d0-8012-8706a0dce5ed" name="Я@Я-ПК 2014-02-01 13:51:57" runUser="Я-ПК\Я" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="35e5bfc7-8173-43e3-b293-803ac7e97538">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Я_Я-ПК 2014-02-01 13_51_57" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-02-01T13:51:57.4690887+04:00" queuing="2014-02-01T13:51:58.9791751+04:00" start="2014-02-01T13:51:59.1611855+04:00" finish="2014-02-01T14:06:45.7808972+04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CodedUITestMethod1" storage="c:\users\я\desktop\проект проверки живых точек\testproject1\testproject1\bin\debug\testproject1.dll" id="69d09586-da7a-e35f-66d2-bb5402dc8b1c">
+      <Execution id="0f2e9f24-af19-410a-a435-758bb18e9033" />
+      <TestMethod codeBase="C:/Users/Я/Desktop/Проект Проверки живых точек/TestProject1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CheckAddr.CheckPos, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod1" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="69d09586-da7a-e35f-66d2-bb5402dc8b1c" executionId="0f2e9f24-af19-410a-a435-758bb18e9033" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0f2e9f24-af19-410a-a435-758bb18e9033" testId="69d09586-da7a-e35f-66d2-bb5402dc8b1c" testName="CodedUITestMethod1" computerName="Я-ПК" duration="00:14:45.0685343" startTime="2014-02-01T13:51:59.3071938+04:00" endTime="2014-02-01T14:06:45.5828859+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f2e9f24-af19-410a-a435-758bb18e9033">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method CheckAddr.CheckPos.CodedUITestMethod1 threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\Я\Desktop\Проект Проверки живых точек\Компютерная мастерская.txt' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode)
+   at CheckAddr.MyTest.Export(String[] source) in C:\Users\Я\Desktop\Проект Проверки живых точек\TestProject1\TestProject1\MyTest.cs:line 650
+   at CheckAddr.CheckPos.CodedUITestMethod1() in C:\Users\Я\Desktop\Проект Проверки живых точек\TestProject1\TestProject1\Main.cs:line 43
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="Я-ПК\CodedUITestMethod1.png" />
+      </ResultFiles>
+      <ExtensionResult>Exception has been thrown by the target of an invocation.</ExtensionResult>
+    </UnitTestResult>
+  </Results>
+</TestRun>

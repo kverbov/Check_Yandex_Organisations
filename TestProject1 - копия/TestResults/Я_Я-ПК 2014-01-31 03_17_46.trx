@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d678366a-373c-4ea7-9cb7-b4d9031c165d" name="Я@Я-ПК 2014-01-31 03:17:46" runUser="Я-ПК\Я" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="35e5bfc7-8173-43e3-b293-803ac7e97538">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Я_Я-ПК 2014-01-31 03_17_46" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-01-31T03:17:46.7451671+04:00" queuing="2014-01-31T03:17:47.8862324+04:00" start="2014-01-31T03:17:48.0622425+04:00" finish="2014-01-31T03:18:48.1976820+04:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="Я-ПК" outcome="Error" timestamp="2014-01-31T03:18:48.1846813+04:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CodedUITestMethod1" storage="c:\users\я\desktop\проект проверки живых точек\testproject1\testproject1\bin\debug\testproject1.dll" id="69d09586-da7a-e35f-66d2-bb5402dc8b1c">
+      <Execution id="ad722d4f-fbc0-4345-ad0c-973abfb93c72" />
+      <TestMethod codeBase="C:/Users/Я/Desktop/Проект Проверки живых точек/TestProject1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CheckAddr.CheckPos, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod1" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="69d09586-da7a-e35f-66d2-bb5402dc8b1c" executionId="ad722d4f-fbc0-4345-ad0c-973abfb93c72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ad722d4f-fbc0-4345-ad0c-973abfb93c72" testId="69d09586-da7a-e35f-66d2-bb5402dc8b1c" testName="CodedUITestMethod1" computerName="Я-ПК" duration="00:00:59.9874311" startTime="2014-01-31T03:17:48.2102509+04:00" endTime="2014-01-31T03:18:48.1976820+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad722d4f-fbc0-4345-ad0c-973abfb93c72">
+    </UnitTestResult>
+  </Results>
+</TestRun>

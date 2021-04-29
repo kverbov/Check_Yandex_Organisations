@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TestProject1" GeneratedClassName="Settings1">
+  <Profiles />
+  <Settings>
+    <Setting Name="firmName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Компютерная мастерская</Value>
+    </Setting>
+    <Setting Name="filePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\Я\Desktop\Проект Проверки живых точек\Адреса.xlsx</Value>
+    </Setting>
+    <Setting Name="sheetName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Лист1</Value>
+    </Setting>
+    <Setting Name="yandSpravURI" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://sprav.yandex.ru//</Value>
+    </Setting>
+    <Setting Name="Setting" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Комп Айти Сервис</Value>
+    </Setting>
+    <Setting Name="Setting1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Chip Service</Value>
+    </Setting>
+    <Setting Name="Setting2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Kiber Service</Value>
+    </Setting>
+    <Setting Name="errFlag" Type="System.String" Scope="User">
+      <Value Profile="(Default)"> - НЕ НАЙДЕН </Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

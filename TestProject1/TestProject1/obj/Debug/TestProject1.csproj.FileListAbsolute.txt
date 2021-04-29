@@ -1,0 +1,18 @@
+c:\users\masha\documents\visual studio 2010\Projects\TestProject1\TestProject1\bin\Debug\TestProject1.dll
+c:\users\masha\documents\visual studio 2010\Projects\TestProject1\TestProject1\bin\Debug\TestProject1.pdb
+c:\users\masha\documents\visual studio 2010\Projects\TestProject1\TestProject1\obj\Debug\TestProject1.csprojResolveAssemblyReference.cache
+c:\users\masha\documents\visual studio 2010\Projects\TestProject1\TestProject1\obj\Debug\TestProject1.dll
+c:\users\masha\documents\visual studio 2010\Projects\TestProject1\TestProject1\obj\Debug\TestProject1.pdb
+C:\Users\Masha\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\bin\Debug\TestProject1.dll.config
+C:\Users\Masha\Desktop\Проект Проверки живых точек\TestProject1\TestProject1\bin\Debug\TestProject1.dll.config
+C:\Users\Masha\Desktop\Проект Проверки живых точек\TestProject1\TestProject1\bin\Debug\TestProject1.dll
+C:\Users\Masha\Desktop\Проект Проверки живых точек\TestProject1\TestProject1\bin\Debug\TestProject1.pdb
+C:\Users\Masha\Desktop\Проект Проверки живых точек\TestProject1\TestProject1\obj\Debug\TestProject1.csprojResolveAssemblyReference.cache
+C:\Users\Masha\Desktop\Проект Проверки живых точек\TestProject1\TestProject1\obj\Debug\TestProject1.dll
+C:\Users\Masha\Desktop\Проект Проверки живых точек\TestProject1\TestProject1\obj\Debug\TestProject1.pdb
+C:\Users\Я\Desktop\Проект Проверки живых точек\TestProject1\TestProject1\bin\Debug\TestProject1.dll.config
+C:\Users\Я\Desktop\Проект Проверки живых точек\TestProject1\TestProject1\bin\Debug\TestProject1.dll
+C:\Users\Я\Desktop\Проект Проверки живых точек\TestProject1\TestProject1\bin\Debug\TestProject1.pdb
+C:\Users\Я\Desktop\Проект Проверки живых точек\TestProject1\TestProject1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Я\Desktop\Проект Проверки живых точек\TestProject1\TestProject1\obj\Debug\TestProject1.dll
+C:\Users\Я\Desktop\Проект Проверки живых точек\TestProject1\TestProject1\obj\Debug\TestProject1.pdb

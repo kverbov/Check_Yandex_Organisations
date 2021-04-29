@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3814a907-0a3e-4cd7-b203-8d7fab2e948d" name="Я@Я-ПК 2014-01-31 19:11:49" runUser="Я-ПК\Я" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="35e5bfc7-8173-43e3-b293-803ac7e97538">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Я_Я-ПК 2014-01-31 19_11_49" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-01-31T19:11:49.1819642+04:00" queuing="2014-01-31T19:11:50.8470595+04:00" start="2014-01-31T19:11:51.0060686+04:00" finish="2014-01-31T19:17:20.9039376+04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CodedUITestMethod1" storage="c:\users\я\desktop\проект проверки живых точек\testproject1\testproject1\bin\debug\testproject1.dll" id="69d09586-da7a-e35f-66d2-bb5402dc8b1c">
+      <Execution id="f1dca77d-787d-41d3-907e-c6da6d975315" />
+      <TestMethod codeBase="C:/Users/Я/Desktop/Проект Проверки живых точек/TestProject1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CheckAddr.CheckPos, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod1" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="69d09586-da7a-e35f-66d2-bb5402dc8b1c" executionId="f1dca77d-787d-41d3-907e-c6da6d975315" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f1dca77d-787d-41d3-907e-c6da6d975315" testId="69d09586-da7a-e35f-66d2-bb5402dc8b1c" testName="CodedUITestMethod1" computerName="Я-ПК" duration="00:05:27.7717508" startTime="2014-01-31T19:11:51.2000797+04:00" endTime="2014-01-31T19:17:20.3559063+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f1dca77d-787d-41d3-907e-c6da6d975315">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method CheckAddr.CheckPos.CodedUITestMethod1 threw exception: 
+System.InvalidOperationException: Cannot process request because the process has exited.</Message>
+          <StackTrace>    at System.Diagnostics.Process.GetProcessHandle(Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.WaitForInputIdle(Int32 milliseconds)
+   at Microsoft.VisualStudio.TestTools.UITesting.IEBrowserService.LaunchIEWindow(String[] arguments)
+   at Microsoft.VisualStudio.TestTools.UITesting.IEBrowserService.Launch(String[] arguments)
+   at Microsoft.VisualStudio.TestTools.UITesting.IEBrowserFactory.Launch(String[] arguments)
+   at Microsoft.VisualStudio.TestTools.UITesting.IEBrowserFactory.Launch(Uri uri)
+   at Microsoft.VisualStudio.TestTools.UITesting.BrowserWindow.Launch(Uri uri)
+   at CheckAddr.UIРемонтноутбуковнаМосWindow.LaunchUrl(Uri url) in C:\Users\Я\Desktop\Проект Проверки живых точек\TestProject1\TestProject1\MyTest.cs:line 2380
+   at CheckAddr.MyTest.CheckPosByAddr(String[] mStations) in C:\Users\Я\Desktop\Проект Проверки живых точек\TestProject1\TestProject1\MyTest.cs:line 464
+   at CheckAddr.CheckPos.CodedUITestMethod1() in C:\Users\Я\Desktop\Проект Проверки живых точек\TestProject1\TestProject1\Main.cs:line 40
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="Я-ПК\CodedUITestMethod1.png" />
+      </ResultFiles>
+      <ExtensionResult>Exception has been thrown by the target of an invocation.</ExtensionResult>
+    </UnitTestResult>
+  </Results>
+</TestRun>
